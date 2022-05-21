@@ -1,0 +1,49 @@
+package operetors;
+
+public class LogiccalOperator {
+	
+	public static void main(String[] args) {
+		
+//		logical AND operator: multiplication
+		
+		int i = 50;
+		
+		int j = 20;
+		
+		boolean k = (i>20) && (j<50);
+		
+		System.out.println(k);// true
+		
+		
+	 boolean	l = (i==20) && (j<50);
+			
+	System.out.println(l);// false
+
+
+	// Logical OR operator: addition
+
+
+			boolean m = (i>20) || (j<50);
+	System.out.println(m);// true
+
+			boolean n = (i==20) || (j<50);
+			
+			System.out.println(n);// true
+			
+			
+//			NOT operator
+			
+			boolean	o = i!= 20;
+			System.out.println(o);
+			
+			boolean p = !(i>50);
+			
+			
+			System.out.println(p);	// true	
+			
+			
+			
+			
+			
+	}
+}
